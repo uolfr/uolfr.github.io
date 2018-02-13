@@ -2887,7 +2887,7 @@ img.mfp-img {
 @font-face {
   font-family: 'roboto_b';
   src: url("/fonts/roboto/robotobold.eot");
-  src: url("/fonts/roboto/robotobold.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/robotobold.woff") format("woff"), url("../fonts/roboto/robotobold.ttf") format("truetype");
+  src: url("/fonts/roboto/robotobold.eot?#iefix") format("embedded-opentype"), url("/fonts/roboto/robotobold.woff") format("woff"), url("/fonts/roboto/robotobold.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
 
