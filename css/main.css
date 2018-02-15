@@ -2745,7 +2745,44 @@ th {
   height: 220px;
   border-radius: 50%;
   overflow: hidden;
-  border: 6px solid #fff; }
+  border: 6px solid #fff;
+  position: relative; }
+  .main__img-wrap:before {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: .0;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: red;
+    z-index: 20;
+    top: 63px;
+    left: 95px;
+    -webkit-box-shadow: 0 0 30px #666666;
+            box-shadow: 0 0 30px #666666; }
+  .main__img-wrap:after {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: .0;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: red;
+    z-index: 20;
+    top: 64px;
+    left: 75px;
+    -webkit-box-shadow: 2px 2px 30px #d61504;
+            box-shadow: 2px 2px 30px #d61504; }
+  .main__img-wrap:hover:after, .main__img-wrap:hover:before {
+    opacity: .8; }
 
 .main__img-pic {
   display: inline-block;
